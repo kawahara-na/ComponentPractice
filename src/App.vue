@@ -11,6 +11,7 @@ import { RouterLink, RouterView } from 'vue-router'
         <RouterLink to="/props">Props</RouterLink>
         <RouterLink to="/componentEvent">ComponentEvent</RouterLink>
         <RouterLink to="/componentDefineModel">DefineModel</RouterLink>
+        <RouterLink to="/fallthrough">fallthrough</RouterLink>
       </nav>
     </div>
   </header>

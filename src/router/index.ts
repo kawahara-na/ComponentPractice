@@ -4,6 +4,8 @@ import ComponentRegistrationView from '@/views/ComponentRegistrationView.vue'
 import PropsView from '@/views/PropsView.vue'
 import ComponentEventView from '@/views/ComponentEventView.vue'
 import ComponentDefineModelView from '@/views/ComponentDefineModelView.vue'
+import FallthroughView from '@/views/FallthroughView.vue'
+import ComponentSlotView from '@/views/ComponentSlotView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -32,6 +34,16 @@ const router = createRouter({
       path: '/componentDefineModel',
       name: 'componentDefineModel',
       component: ComponentDefineModelView,
+    },
+    {
+      path: '/fallthrough',
+      name: 'fallthrough',
+      component: FallthroughView,
+    },
+    {
+      path: '/componentSlot',
+      name: 'componentSlot',
+      component: ComponentSlotView,
     },
   ],
 })
